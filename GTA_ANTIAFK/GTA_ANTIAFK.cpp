@@ -51,8 +51,8 @@ int main()
     }
         else if (toggled) {
             std::this_thread::sleep_for(std::chrono::milliseconds(10));
-            SendKeys('Z');
-            SendKeys('Q');
+            SendKeys('W');
+            SendKeys('A');
             SendKeys('S');
             SendKeys('D');
 
